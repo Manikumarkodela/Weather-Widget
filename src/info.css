@@ -1,0 +1,29 @@
+.Info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info .MuiCard-root, .Info .weather-card {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: 0 10px 30px rgba(2,6,23,0.55);
+}
+
+
+.Info .MuiCardMedia-root, .Info .weather-image {
+  height: 220px;
+  object-fit: cover;
+  filter: saturate(1.02) contrast(0.98);
+}
+.Info .MuiCardContent-root, .Info .card-content {
+  padding: 14px 18px;
+  color: #fff;
+}
+.Info h5 { font-size: 1.05rem; margin: 0 0 8px 0; font-weight: 600; }
+.Info p { margin: 4px 0; color: rgba(255,255,255,0.85); font-size: 0.95rem; }
+
+.Info .meta { margin-top: 8px; display:flex; gap:12px; color: rgba(255,255,255,0.72); font-size: 0.9rem; }
